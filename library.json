@@ -1,0 +1,31 @@
+{
+  "title": "Word Search",
+  "description": "Haz tu propia sopa de letras introduciendo las palabras y las pistas",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Jose Manuel Riballo Moreno",
+  "license": "cc-by-sa",
+  "machineName": "H5P.WordSearch",
+  "preloadedCss": [
+	{"path": "css/mywordsearch.css"}
+  ],
+  "preloadedJs": [
+    {
+	  "path": "js/mywordsearch.js"
+	},
+	{
+	  "path": "js/wordsearch.js"
+	},
+	{
+	  "path": "js/word.js"
+	},
+	{
+	  "path": "js/cell.js"
+	},
+	{
+	  "path": "js/cellNode.js"
+	}
+  ]
+}

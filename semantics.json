@@ -1,0 +1,52 @@
+[
+  {
+    "label": "Words",
+	"name": "words",
+    "type": "list",
+    "entity": "word",
+    "min": 3,
+    "max": 30,
+    "field": {
+      "type": "group",
+      "label": "Word",
+      "fields": [
+        {
+          "label": "Text",
+		  "name": "word_text",
+          "type": "text",
+          "maxLength": 15,
+		  "description": "The word to find."
+        },
+        {
+          "label": "Definition",
+          "name": "definition",
+          "type": "text",
+          "maxLength": 100,
+          "description": "Definition.",
+		  "optional": true
+        }
+      ]
+    }
+  },
+  {
+  "name": "difficulty",
+  "type": "select",
+  "label": "Difficulty",
+  "description": "Select the difficulty",
+  "options": [
+    {
+      "value": "easy",
+      "label": "Easy"
+    },
+    {
+      "value": "normal",
+      "label": "Normal"
+    },
+	{
+	  "value": "hard",
+	  "label": "Hard"
+	}
+  ],
+  "default": "easy"
+  }
+]
