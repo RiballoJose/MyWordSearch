@@ -13,7 +13,7 @@ H5P.WordSearch.CrossWord = function (parameters, id) {
 	var word_elements = [];	
 	for(var i = 0; i < words.length; i++){
 		word_elements.push(new H5P.WordSearch.Word(words[i], i));
-		words_in.push(words[i].word_text);
+		words_in.push(words[i]);
 	}
 	
 	var grid = new Array(GRID_ROWS);

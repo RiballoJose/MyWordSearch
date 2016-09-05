@@ -1,17 +1,13 @@
 H5P.WordSearch.Word = function (parameters, i) {
 	var self = this;
 	
-	var word = parameters.word_text;
-	var clue = parameters.clue;
+	var word = parameters;
 	var length = word.length;
 	var index = i;
 	var dir = undefined;
 	
 	self.getWord = function () {
 		return word;
-	};
-	self.getClue = function () {
-		return clue;
 	};
 	self.getLength = function () {
 		return length;

@@ -1,9 +1,9 @@
 {
   "title": "Word Search",
   "description": "Haz tu propia sopa de letras introduciendo las palabras y las pistas",
-  "majorVersion": 1,
+  "majorVersion": 5,
   "minorVersion": 0,
-  "patchVersion": 0,
+  "patchVersion": 5,
   "runnable": 1,
   "author": "Jose Manuel Riballo Moreno",
   "license": "cc-by-sa",
